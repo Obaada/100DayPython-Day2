@@ -30,6 +30,7 @@ print(str(70) +  str(100))
 3 * 5
 5 ** 2
 10 / 2
+10 // 3
 
 # PEMDAS    
 # ()
@@ -39,3 +40,13 @@ print(str(70) +  str(100))
 print(3 * (3 + 3) / 3 - 3)
 
 # Rounding`
+print(round(8 / 3, 2))
+
+# Floor Division
+print(8 // 3)
+
+# F-String
+score = 0
+height = 1.8
+isWinning = True
+print(f"Your score is {score}, your height is {height}, you are winning is {isWinning}")
